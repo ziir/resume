@@ -11,15 +11,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #333; font-family: Ubuntu, Verdana, helvetica, arial, sans-serif; font-size: 16px; color: #222;}
-
-
-/*gris : #D8D9DC*/
-/*orange : #F63 */
-/*vert  : #60A969*/
-/*bleu : rgb(16, 80, 233)*/
-/*cyan : #29C4D9*/
-
+html, body {background: #fefefe; font-family: Ubuntu, Verdana, helvetica, arial, sans-serif; font-size: 16px; color: #222;}
 
 .clear {clear: both;}
 
@@ -75,6 +67,12 @@ hr {
 
 #name h2 {
 	font-size: 1.4em;
+	margin-left: 2px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#name h3 {
+	font-size: 1em;
 	margin-left: 2px;
 	font-family: Helvetica, Arial, sans-serif;
 }
@@ -232,13 +230,13 @@ article ul li {
 	}
 	
 	.keySkills {
-	-moz-column-count:2;
-	-webkit-column-count:2;
-	column-count:2;
+		-moz-column-count:2;
+		-webkit-column-count:2;
+		column-count:2;
 	}
 }
 
-@media all and (max-width: 661px) {
+@media all and (max-width: 681px) {
 	#cv {
 		width: 95%;
 		margin: 10px auto;
